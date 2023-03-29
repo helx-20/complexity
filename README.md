@@ -17,15 +17,15 @@ python noise_test.py
 ````
 
 ## Deep reinforcement learning experiment
-For the InvertedPendulum environment, you can run the following code. You can choose s-LIF, HH, s-LIF2HH, 4s-LIF or b-ANN model in main.py. The results are recorded in the "record/model_name" folder.
+For the InvertedPendulum environment, you can run the following code. The model name can chosen in "LIF", "HH", "LIF_HH", "4LIF" and "ANN". The results are recorded in the "record/model_name" folder.
 ````
 cd drl_InvertedPendulum
-python main.py
+python main.py --model_name LIF
 ````
-For the InvertedDoublePendulum environment, you can run the following code. You can choose s-LIF, HH, s-LIF2HH, 4s-LIF or b-ANN model in main.py. The results are recorded in the "record/model_name" folder.
+For the InvertedDoublePendulum environment, you can run the following code. The model name can chosen in "LIF", "HH", "LIF_HH", "4LIF" and "ANN". The results are recorded in the "record/model_name" folder.
 ````
 cd drl_InvertedDoublePendulum
-python main.py
+python main.py --model_name LIF
 ````
 
 ## Mutual information analysis
@@ -34,3 +34,6 @@ To measure the mutual information of each network, you can run the following cod
 cd MI
 python main.py --model LIF
 ````
+
+## FLOPs measurement
+To measure the FLOPs in each network, you can run the cal_flops.ipynb in "calculate_flops" folder.
