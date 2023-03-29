@@ -1,4 +1,9 @@
 # Network Model with  Internal Complexity Bridges Artificial Intelligence and Neuroscience
+## Requirements
+````
+pip install -r requirements.txt
+````
+
 ## Time-varied model simulation
 To get the results in Fig.3a and Fig.3b, you can run the main.m in "time_varied_simulation/fully-connected" or "time_varied_simulation/xor" folder with MATLAB.
 
