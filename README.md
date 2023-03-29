@@ -29,7 +29,7 @@ python main.py --model_name LIF
 ````
 
 ## Mutual information analysis
-To measure the mutual information of each network, you can run the following code. The model name "LIF" can be changed to "HH" or "LIF-HH".
+To measure the mutual information of each network, you can run the following code. The model name "LIF" can be changed to "HH" or "LIF_HH".
 ````
 cd MI
 python main.py --model LIF
