@@ -11,9 +11,9 @@ For model training, you can run the following code. Different model names, inclu
 cd multi-task
 python main.py --model_name LIF_fc
 ````
-For robustness test, the amplitude of noise can be modified in noise_test.py.
+For robustness test, the amplitude of noise can be modified by changing the value of "A". Different model names, including "LIF_fc", "HH_fc", "LIF_hh_fc", "4LIF_fc", "ANN", "LIF_conv", "HH_conv", "LIF_hh_conv", "4LIF_conv" and "CNN", can be chosen.
 ````
-python noise_test.py --model_name LIF_fc
+python noise_test.py --model_name LIF_fc --A 75
 ````
 
 ## Deep reinforcement learning experiment
