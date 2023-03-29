@@ -6,14 +6,14 @@ To get the results in Fig.3a and Fig.3b, you can run the main.m in "time_varied_
 To get the results in Fig.3d, you can run the main.m in "simplified_simulation" folder with MATLAB. Different types and amplitudes of input signals can be chosen in main.m.
 
 ## Multi-task learning experiment
-For model training, you can run the following code. Different models, including s-LIF, HH, s-LIF2HH, 4s-LIF and b-ANN, can be chosen in train_pure.py.
+For model training, you can run the following code. Different model names, including "LIF_fc", "HH_fc", "LIF_hh_fc", "4LIF_fc", "ANN", "LIF_conv", "HH_conv", "LIF_hh_conv", "4LIF_conv" and "CNN", can be chosen.
 ````
 cd multi-task
-python train_pure.py
+python main.py --model_name LIF_fc
 ````
 For robustness test, the amplitude of noise can be modified in noise_test.py.
 ````
-python noise_test.py
+python noise_test.py --model_name LIF_fc
 ````
 
 ## Deep reinforcement learning experiment
