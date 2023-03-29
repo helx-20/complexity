@@ -22,7 +22,7 @@ For the InvertedPendulum environment, you can run the following code. The model 
 cd drl_InvertedPendulum
 python main.py --model_name LIF
 ````
-For the InvertedDoublePendulum environment, you can run the following code. The model name can chosen in "LIF", "HH", "LIF_HH", "4LIF" and "ANN". The results are recorded in the "record/model_name" folder.
+For the InvertedDoublePendulum environment, you can run the following code. The model name can chosen in "LIF", "HH", "LIF_HH", "4LIF" and "ANN". The results are recorded in the "record/model_name" folder. You can add state or reward noise and change the amplitude of noise in the main.py. 
 ````
 cd drl_InvertedDoublePendulum
 python main.py --model_name LIF
