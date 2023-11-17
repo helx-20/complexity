@@ -69,7 +69,7 @@ function main()
     
     dt=dt1;
     for i=2:(t/dt)+1
-        [hh1(i,1),hh1(i,2),hh1(i,3),hh1(i,4)]=hh_model(hh1(i-1,1),hh1(i-1,2),hh1(i-1,3),hh1(i-1,4),x1((i-1)*dt)*input_c);
+        [hh1(i,1),hh1(i,2),hh1(i,3),hh1(i,4)]=hh_model(hh1(i-1,1),hh1(i-1,2),hh1(i-1,3),hh1(i-1,4),x1((i-1)*dt));
         if(hh1(i,1)>thresh)
             spike_hh=1;
         else
