@@ -48,3 +48,15 @@ python main.py --model LIF
 
 ## FLOPs measurement
 To measure the FLOPs in each network, you can __run the cal_flops.ipynb__ in "calculate_flops" folder. This file is for Figure 5b.
+
+## Citation
+````
+@article{he2024network,
+  title={Network model with internal complexity bridges artificial intelligence and neuroscience},
+  author={He, Linxuan and Xu, Yunhui and He, Weihua and Lin, Yihan and Tian, Yang and Wu, Yujie and Wang, Wenhui and Zhang, Ziyang and Han, Junwei and Tian, Yonghong and others},
+  journal={Nature Computational Science},
+  pages={1--16},
+  year={2024},
+  publisher={Nature Publishing Group US New York}
+}
+````
