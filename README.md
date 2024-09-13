@@ -5,7 +5,7 @@ pip install -r requirements.txt
 ````
 
 ## Time-varied model simulation
-To get the results in Fig.3a and Fig.3b, you can __run the main.m__ in "time_varied_simulation/fully-connected" or "time_varied_simulation/xor" folder with MATLAB. These two files run the simulation of HH and tv-LIF2HH models for Supplementary Figures 2.1 and 2.2 .
+To get the results in Supplementary Figures 2.1 and 2.2, you can __run the main.m__ in "time_varied_simulation/fully-connected" or "time_varied_simulation/xor" folder with MATLAB. These two files run the simulation of HH and tv-LIF2HH models for Supplementary Figures 2.1 and 2.2.
 ````
 matlab main
 ````
