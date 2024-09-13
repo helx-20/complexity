@@ -1,5 +1,6 @@
 # Network Model with  Internal Complexity Bridges Artificial Intelligence and Neuroscience
 ## Requirements
+Recommend Python version 3.6
 ````
 pip install -r requirements.txt
 ````
